@@ -21,6 +21,17 @@ public class CalculoMedia {
 		// saida
 		// + concatena (junta) um texto com o conteúdo da variável media
 		System.out.println("Média Final:" + media);
+		//Estrutura de check true false,
+		//MENOR OU IGUAL A 2 - REPROVADO
+		//ENTRE 2 E 5 - RECUPERAÇÃO
+		// MAIOR OU IGUAL A 5 - APROVADO
+		if (media <= 2) {
+			System.out.println("REPROVADO");
+		} else if (media > 2 && media < 5){
+			System.out.println("RECUPERAÇÃO");
+		} else {
+			System.out.println("APROVADO");
+		}
 	}
 
 }
