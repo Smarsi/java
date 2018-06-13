@@ -1,3 +1,9 @@
+/*
+ * Atividade JokenPo
+ * @author Richard A., Luis Freitas, Diogo Diniz.
+ * Date 06/13/2018
+ */
+
 package br.com.java;
 
 import java.util.Random;
@@ -40,7 +46,7 @@ public class JoKenPo {
 				System.out.println("");
 				break;
 			default:
-				System.out.println("________________________");
+				System.out.println("_________________________");
 				System.out.println("OPÇÃO INVÁLIDA, POR FAVOR JOGUE NOVAMENTE");
 				System.out.println("");
 				break;	
