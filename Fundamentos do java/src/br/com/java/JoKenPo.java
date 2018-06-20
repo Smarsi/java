@@ -13,7 +13,7 @@ public class JoKenPo {
 
 	public static void main(String[] args) {
 		
-		int opcao, placar, pontos;
+		int opcao;
 		int jogadorganha = 0, computadorganha = 0;
 		char novamente;
 		Scanner digitando = new Scanner(System.in);
@@ -70,8 +70,6 @@ public class JoKenPo {
 			break;
 		}
 		
-		int i = 0;
-		
 			if (opcao == aleatorio) {
 				System.out.println("EMPATE");
 			} else if (opcao == 1 && aleatorio == 2) {
@@ -113,12 +111,17 @@ public class JoKenPo {
 			System.out.println("Você está com " + jogadorganha + " e o oponente esta com " + computadorganha);
 			
 			if (jogadorganha == 3 && computadorganha < jogadorganha ) {
-				System.out.println("Você venceu essa PARTIDA");
+				System.out.println("___________________________");
+				System.out.println(" Você venceu essa PARTIDA  ");
+				System.out.println("___________________________");
 				System.out.println("");
 				jogadorganha = 0;
 				computadorganha = 0;
 			} else if (computadorganha == 3 && jogadorganha < computadorganha)  {
-				System.out.println("Você perdeu essa PARTIDA");
+				System.out.println("__________________________");
+				System.out.println(" Você perdeu essa PARTIDA ");
+				System.out.println("__________________________");
+				System.out.println("");
 				jogadorganha = 0;
 				computadorganha = 0;
 			} else {
