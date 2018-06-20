@@ -49,7 +49,7 @@ public class ChurrasColadora {
 		totalrefri = (nmrmulher * 2) + (nmrcrianca * 2 );
 		totaltotal = (totalcarne + totalfrango + totallinguica);
 		totalcarvao = 5;
-		carvaodocao = (totaltotal) * 4;
+		carvaodocao = (totaltotal);
 		carvaum = 4;
 		
 		
@@ -81,7 +81,7 @@ public class ChurrasColadora {
 		System.out.println("Quantidade total de Linguiça: " + totallinguica + " KG -- R$ " + prelinguica);
 		System.out.println("Quantidade total de Cerveja: " + totalcerveja + " Latas -- R$ " + precerveja);
 		System.out.println("Quantidade total de Latas de Refrigerante: " + totalrefri + " Latas -- R$ " + prerefri);
-		System.out.println("Kilos de Carvao: " + carvaum + " KG -- R$ " + carvao * carvaodocao);
+		System.out.println("Carvão: " + carvaum + "  R$ " + carvaum * carvaodocao);
 		
 		System.out.println("___________________________________________________________________________________");
 		System.out.println("");
