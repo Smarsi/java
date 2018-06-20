@@ -130,7 +130,7 @@ public class JoKenPo {
 			
 				System.out.println("===========================");
 				System.out.println("");
-				System.out.print("Deseja jogar novamente? (S/N):");
+				System.out.print("Deseja jogar novamente?  (S/N):");
 				novamente = digitando.next().charAt(0);
 				System.out.println("");
 				System.out.println("===========================");
